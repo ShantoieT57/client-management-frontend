@@ -1,0 +1,86 @@
+{
+  "Id": "SOJx",
+  "Name": "Customer",
+  "Properties": [
+    {
+      "Id": "6gBu",
+      "Name": "customerId",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "cwxs",
+      "Name": "firstName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Xc6m",
+      "Name": "lastName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "XrZD",
+      "Name": "email",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OgeQ",
+      "Name": "phoneNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "uqQF",
+      "Name": "dateOfBirth",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "uX3f",
+      "Name": "nationalIdNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BbI9",
+      "Name": "streetAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "htZ6",
+      "Name": "city",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "TV71",
+      "Name": "postalCode",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "5Af3",
+      "Name": "country",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "t9hq",
+      "Name": "customerType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "aqPX",
+      "Name": "isActive",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "9GU1",
+      "Name": "loyaltyNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "z8m5",
+      "Name": "createdAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "fDSh",
+      "Name": "updatedAt",
+      "Type": "Compiled:DateTime"
+    }
+  ]
+}

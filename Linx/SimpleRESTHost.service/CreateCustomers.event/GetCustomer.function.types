@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_jwSa",
+      "Properties": [
+        {
+          "Id": "CustomerId",
+          "Name": "CustomerId",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+CREATE TABLE Customers (
+    CustomerId UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+    FirstName NVARCHAR(100) NOT NULL,
+    LastName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(255) NOT NULL,
+    PhoneNumber NVARCHAR(20) NULL,
+    DateOfBirth DATE NULL,
+    NationalIdNumber NVARCHAR(50) NOT NULL,
+
+    StreetAddress NVARCHAR(255) NOT NULL,
+    City NVARCHAR(100) NOT NULL,
+    PostalCode NVARCHAR(20) NOT NULL,
+    Country NVARCHAR(100) NOT NULL,
+
+    CustomerType NVARCHAR(50) NOT NULL CHECK (CustomerType IN ('Individual', 'Business')),
+    IsActive BIT NOT NULL DEFAULT 1,
+    LoyaltyNumber NVARCHAR(50) NULL,
+
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
+    UpdatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()
+);

@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_3q4Y",
+      "Properties": [
+        {
+          "Id": "city",
+          "Name": "city",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "country",
+          "Name": "country",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "createdAt",
+          "Name": "createdAt",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "customerId",
+          "Name": "customerId",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "customerType",
+          "Name": "customerType",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "dateOfBirth",
+          "Name": "dateOfBirth",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstName",
+          "Name": "firstName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "isActive",
+          "Name": "isActive",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastName",
+          "Name": "lastName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "loyaltyNumber",
+          "Name": "loyaltyNumber",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "nationalIdNumber",
+          "Name": "nationalIdNumber",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "phoneNumber",
+          "Name": "phoneNumber",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "postalCode",
+          "Name": "postalCode",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "streetAddress",
+          "Name": "streetAddress",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updatedAt",
+          "Name": "updatedAt",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

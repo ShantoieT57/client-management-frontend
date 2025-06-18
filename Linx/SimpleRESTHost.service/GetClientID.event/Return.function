@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:C_1yFY.Operations.GetClientID.Result",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"ResponseBody\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "ResponseBody"
+            ],
+            "expression": {
+              "Expression": "GetCustomer",
+              "CompiledExpression": "={0}",
+              "Type": "Generated:T_3q4Y"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

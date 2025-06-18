@@ -1,0 +1,143 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.DB_Connection",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.Common.Sql.DesignerConnectionType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Expression0",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.ClientID",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "customerId",
+            "Name": "customerId",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "firstName",
+            "Name": "firstName",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "lastName",
+            "Name": "lastName",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "email",
+            "Name": "email",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "phoneNumber",
+            "Name": "phoneNumber",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "dateOfBirth",
+            "Name": "dateOfBirth",
+            "TypeReference": "Compiled:DateTime"
+          },
+          {
+            "ColumnName": "nationalIdNumber",
+            "Name": "nationalIdNumber",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "streetAddress",
+            "Name": "streetAddress",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "city",
+            "Name": "city",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "postalCode",
+            "Name": "postalCode",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "country",
+            "Name": "country",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "customerType",
+            "Name": "customerType",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "isActive",
+            "Name": "isActive",
+            "TypeReference": "Compiled:Boolean"
+          },
+          {
+            "ColumnName": "loyaltyNumber",
+            "Name": "loyaltyNumber",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "createdAt",
+            "Name": "createdAt",
+            "TypeReference": "Compiled:DateTime"
+          },
+          {
+            "ColumnName": "updatedAt",
+            "Name": "updatedAt",
+            "TypeReference": "Compiled:DateTime"
+          }
+        ],
+        "IsCustomType": true
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "FirstRowElseNull"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT customerId\r\n      ,firstName\r\n      ,lastName\r\n      ,email\r\n      ,phoneNumber\r\n      ,dateOfBirth\r\n      ,nationalIdNumber\r\n      ,streetAddress\r\n      ,city\r\n      ,postalCode\r\n      ,country\r\n      ,customerType\r\n      ,isActive\r\n      ,loyaltyNumber\r\n      ,createdAt\r\n      ,updatedAt\r\n  FROM dbo.Customers\r\n  WHERE CustomerID = @{$.Parameters.ClientID}\r\n"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Result": "Generated:T_3q4Y",
+  "Version": "3"
+}

@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:C_1yFY.Operations.CreateCustomers.Result",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"ResponseBody\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "ResponseBody"
+            ],
+            "expression": {
+              "Expression": "\"Customer Created with ID: \"  + GetCustomer.CustomerId",
+              "CompiledExpression": "=\"Customer Created with ID: \"+{0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

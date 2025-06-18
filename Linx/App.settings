@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "c1zI",
+    "Name": "BaseURI",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:5001"
+  },
+  {
+    "Id": "BB4H",
+    "Name": "DB_Connection",
+    "Type": "Compiled:String",
+    "Value": "Data Source=.;Initial Catalog=CreativePlayground;Integrated Security=;User ID=sa;Password=123qwerASDF;TrustServerCertificate=True; "
+  }
+]
