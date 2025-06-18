@@ -56,7 +56,7 @@ const ClientListPage: React.FC = () => {
     const handleDelete = async (customerId: string) => {
         if (window.confirm('Are you sure you want to delete this client?')) {
             try {
-                const response = await fetch(`/client/${customerId}`, {
+                const response = await fetch(`/client?ClientID=${customerId}`, {
                     method: 'DELETE',
                 });
                 if (response.ok) {
